@@ -1,0 +1,77 @@
+:root{
+    --name-text-color:#B4AD9E;
+    --main-text-color:#626262;
+    --text-accent-color:#03A9F4;
+    --header-link-color:#7D7D7D;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.header-link:hover{
+ color: var(--text-accent-color);   
+}
+.container{
+    outline: 1px solid red;
+    width: 906px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    margin: 0 auto;
+    padding-top: 71px;
+    padding-bottom: 101px;
+}
+.header-link{
+    color: var(--header-link-color);
+    
+        font-family: Playfair Display;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+
+}
+.gallery-category{
+    color: var(--name-text-color);
+    
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+}
+.gallery-title{
+    color: var(--main-text-color);
+    
+        font-family: Playfair Display;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.gallery-text{
+    color: var(--main-text-color);
+    
+        font-family: Playfair Display;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.gallery-button{
+    color: var(--main-text-color);
+        font-family: "Playfair Display";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    margin-top: 90px;
+    margin-bottom: 57px;
+    width: 165px;
+    height: 60px;
+}
