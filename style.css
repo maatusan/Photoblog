@@ -17,12 +17,17 @@ a{
     outline: 1px solid red;
     width: 906px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 .header{
     margin: 0 auto;
     padding-top: 71px;
-    padding-bottom: 101px;
+    padding-bottom: 92px;
+}
+.header-list{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border: 1px solid green;
 }
 .header-link{
     color: var(--header-link-color);
@@ -35,6 +40,15 @@ a{
         text-transform: uppercase;
 
 }
+.gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 130px;
+    column-gap: 65px;
+}
+.gallery-item{
+    width: 420px;
+}
 .gallery-category{
     color: var(--name-text-color);
     
@@ -44,6 +58,7 @@ a{
         font-weight: 300;
         line-height: normal;
         text-transform: uppercase;
+        margin-top: 62px;
 }
 .gallery-title{
     color: var(--main-text-color);
@@ -53,6 +68,8 @@ a{
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        padding-top: 32px;
+        padding-bottom: 40px;
 }
 .gallery-text{
     color: var(--main-text-color);
@@ -64,14 +81,20 @@ a{
         line-height: normal;
 }
 .gallery-button{
-    color: var(--main-text-color);
         font-family: "Playfair Display";
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-    margin-top: 90px;
+    margin-top: 94px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 57px;
+    padding: 20px 40px;
     width: 165px;
     height: 60px;
+    background-color: transparent;
+    display: block;
+    color: var(--main-text-color);
+    border: 1px solid var(--main-text-color);
 }
